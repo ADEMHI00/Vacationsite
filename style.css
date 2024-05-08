@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img,
+a,
+button {
+    display: block;
+    text-decoration: none;
+}
+
+#header {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+#inner-header {
+    height: 100%;
+    width: 94%;
+    /* background-color: bisque; */
+    margin: 0 auto;
+    display: flex;
+}
+
+#part1 {
+    height: 100%;
+    width: 45%;
+    /* background-color: white; */
+    justify-content: center;
+    margin-top: 1%;
+}
+
+#part2 {
+    height: 100%;
+    width: 55%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    padding-left: 120px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#button-head {
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+    border-color: green;
+}
+
+.font {
+    color: rgb(2, 56, 2);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+}
+
+
+
+#bg-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/furniture1.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    height: 150px;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+
+}
+
+#search2 {
+    height: 70px;
+    width: 700px;
+    background-color: white;
+    border-radius: 40px;
+    border: 1px solid green;
+    opacity: 0.9;
+}
+
+#search3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 400px;
+    background-color: white;
+    border-radius: 40px;
+    border: 1px solid green;
+    opacity: 0.9;
+}
+
+#search4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 130px;
+    background-color: white;
+    border: 30px;
+    border-radius: 40px;
+    border: 1px solid green;
+    opacity: 0.9;
+}
+
+#search5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 150px;
+    background-color: rgb(17, 92, 2);
+    border-radius: 40px;
+    border: 1px solid green;
+    opacity: 0.9;
+    color: white;
+}
+
+#search5:hover {
+    background-color: rgb(2, 49, 2);
+}
+
+.arise {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    align-items: center;
+    padding-left: 25px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Work Sans", sans-serif;
+    height: 50px;
+    width: 50%;
+    border-right: 1.5px solid green;
+}
+
+#day {
+    color: rgb(207, 203, 203);
+    border: 0 solid green;
+    font-size: 30px;
+
+}
+
+.dep {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Work Sans", sans-serif;
+    height: 50px;
+    width: 50%;
+}
+
+#location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "work Sans", sans-serif;
+    padding-left: auto;
+    gap: 10px;
+    height: 70px;
+    width: 60%
+}
+
+#dot {
+    color: rgb(207, 203, 203);
+    border: 0 solid green;
+    font-size: 30px;
+}
+
+#one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "work Sans", sans-serif;
+    gap: 20px;
+
+}
+
+#space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: "work Sans", sans-serif;
+}
+
+#popular {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Space Mono", monospace;
+    text-align: center;
+    color: rgb(8, 7, 7);
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+.italy {
+    height: 1300px;
+    width: 100%;
+    background-color: #f6f6f7;
+
+}
+
+.italy1-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/ytvq3n9i.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 550px;
+}
+
+.italy1 {
+    display: flex;
+    align-items: end;
+    justify-content:center;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.7847514005602241) 0%, rgba(255,255,255,0) 54%);
+
+}
+.villas{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Space Mono", monospace;
+    color: white;
+    padding-right: 140px;
+    padding-bottom: 20px;
+}
+.upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.holiday{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Space Mono", monospace;
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+#img2{
+    background-image: url(img/spain.png);
+}
+#img3{
+    background-image: url(img/london.png);
+}
+#img4{
+    background-image: url(img/italy.png);
+}
+#img5{
+    background-image: url(img/gites.png);
+}
+#img6{
+    background-image: url(img/england.png);
+}
+#img7{
+    background-image: url(img/new\ york.png);
+}
+#Information{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "work Sans", sans-serif;
+    color:green;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 90px;
+}
+#class{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#rentals{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "work Sans", sans-serif;
+    color:green;
+    text-align: center;
+}
+ .lettings{
+    height: 1300px;
+    width: 100%;
+    background-color:red;
+    margin-bottom: 50px;
+}
