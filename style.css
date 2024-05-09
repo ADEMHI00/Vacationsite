@@ -89,7 +89,6 @@ button {
     width: 90%;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
-
 }
 
 #search2 {
@@ -245,13 +244,14 @@ button {
 .italy1 {
     display: flex;
     align-items: end;
-    justify-content:center;
+    justify-content: center;
     height: 100%;
     width: 100%;
-    background: linear-gradient(0deg, rgba(0,0,0,0.7847514005602241) 0%, rgba(255,255,255,0) 54%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7847514005602241) 0%, rgba(255, 255, 255, 0) 54%);
 
 }
-.villas{
+
+.villas {
     font-size: 30px;
     font-weight: 500;
     font-family: "Space Mono", monospace;
@@ -259,14 +259,16 @@ button {
     padding-right: 140px;
     padding-bottom: 20px;
 }
-.upper{
+
+.upper {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
     margin-bottom: 10px;
 }
-.holiday{
+
+.holiday {
     font-size: 30px;
     font-weight: 500;
     font-family: "Space Mono", monospace;
@@ -274,47 +276,245 @@ button {
     padding-left: 30px;
     padding-bottom: 20px;
 }
-#img2{
+
+#img2 {
     background-image: url(img/spain.png);
 }
-#img3{
+
+#img3 {
     background-image: url(img/london.png);
 }
-#img4{
+
+#img4 {
     background-image: url(img/italy.png);
 }
-#img5{
+
+#img5 {
     background-image: url(img/gites.png);
 }
-#img6{
+
+#img6 {
     background-image: url(img/england.png);
 }
-#img7{
+
+#img7 {
     background-image: url(img/new\ york.png);
 }
-#Information{
+
+#Information {
     font-size: 20px;
     font-weight: 400;
     font-family: "work Sans", sans-serif;
-    color:green;
+    color: green;
     text-align: center;
     text-decoration: underline;
     margin-top: 90px;
 }
-#class{
+
+#class {
     margin-top: auto;
     margin-bottom: auto;
 }
-#rentals{
+
+.lettings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    width: 100%;
+    /* background-color:red; */
+    margin-bottom: 50px;
+}
+
+#rentals {
     font-size: 32px;
     font-weight: 400;
     font-family: "work Sans", sans-serif;
-    color:green;
+    color: green;
     text-align: center;
 }
- .lettings{
-    height: 1300px;
+
+#easy {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "work Sans", sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#cost {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "work Sans", sans-serif;
+    width: 590px;
+    margin-top: 30px;
+}
+
+#effective {
+    height: 800px;
+    width: 1200px;
+    /* background-color: rgb(246, 244, 244); */
+}
+
+#free {
+    font-size: 25px;
+    font-weight: 100;
+    font-family: "work Sans", sans-serif;
+    margin-top: 12px;
+}
+
+#with {
     width: 100%;
-    background-color:red;
-    margin-bottom: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bookings {
+    width: 590px;
+    height: 250px;
+    /* background-color: aqua; */
+}
+
+#get {
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: rgb(1, 87, 1);
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: "work Sans", sans-serif;
+    border: 0;
+}
+
+#get:hover {
+    background-color: rgb(1, 55, 1);
+}
+
+#inspiration {
+    height: 600px;
+    width: 100%;
+    background-color: #f6f6f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#just {
+    height: 400px;
+    width: 700px;
+    /* background-color: #f6f6f7; */
+}
+
+#king {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "Space Mono", monospace;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#best {
+    font-size: 20px;
+    font-weight: 50;
+    font-family: "work Sans", sans-serif;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#Email {
+    font-size: 20px;
+    font-weight: 50;
+    font-family: "work Sans", sans-serif;
+    margin-top: 10px;
+}
+
+#internal {
+    height: 50px;
+    width: 130px;
+    font-size: 20px;
+    font-family: "work Sans", sans-serif;;
+    border-radius: 20px;
+    border: 0;
+    background-color: green;
+    color: #f6f6f7;
+}
+
+#internal:hover {
+    background-color: rgb(2, 61, 2);
+}
+
+#External {
+    display: flex;
+    margin-top: 10px;
+    gap: 40px;
+}
+
+input {
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#terms{
+    font-size: 20px;
+    font-weight: 50;
+    font-family: "work Sans", sans-serif;
+    margin-top: 15px;
+    text-decoration: underline;
+    color: green;
+}
+#cookies{
+    font-size: 20px;
+    font-weight: 50;
+    font-family: "work Sans", sans-serif;
+    margin-top: 15px;
+    text-decoration: underline;
+    color: green;
+    cursor: grab;
+}
+#privacy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+    cursor: grab;
+}
+.Brazil{
+    height: 800px;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#last{
+text-align: center;
+}
+#vertical{
+    height: 600px;
+    width: 1700px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#around{
+    font-size: 30px;
+    font-weight: 200;
+    font-family:"Space Mono", monospace;
+}
+.Albufeira{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "work Sans", sans-serif;
+      /* margin-top: px;
+} */
+
+#Algarve{
+    margin-top: 23px;
 }
