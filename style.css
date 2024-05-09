@@ -43,27 +43,34 @@ button {
     width: 55%;
     /* background-color: yellowgreen; */
     display: flex;
-    padding-left: 120px;
+    padding-left: 400px;
     align-items: center;
-    justify-content: space-between;
-    gap: 20px;
+    /* justify-content: space-between; */
+    gap: 30px;
 }
-
+#heart{
+    gap: 20px;
+    font-size: 16px;
+}
 #button-head {
     height: 40px;
-    width: 200px;
-    border-radius: 10px;
+    width: 150px;
+    border-radius: 20px;
     background-color: transparent;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     color: black;
     border-color: green;
 }
+#chevron{
+    font-size: 16;
+    color: gray;
+}
 
 .font {
     color: rgb(2, 56, 2);
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 300;
     font-family: "Work Sans", sans-serif;
 }
 
@@ -436,7 +443,7 @@ button {
     height: 50px;
     width: 130px;
     font-size: 20px;
-    font-family: "work Sans", sans-serif;;
+    font-family: "work Sans", sans-serif;
     border-radius: 20px;
     border: 0;
     background-color: green;
@@ -459,62 +466,101 @@ input {
     border-radius: 10px;
     font-size: 20px;
 }
-#terms{
+
+#terms {
     font-size: 20px;
     font-weight: 50;
     font-family: "work Sans", sans-serif;
     margin-top: 15px;
     text-decoration: underline;
     color: green;
+    line-height: 70px;
 }
-#cookies{
+
+#cookies {
     font-size: 20px;
     font-weight: 50;
     font-family: "work Sans", sans-serif;
     margin-top: 15px;
     text-decoration: underline;
     color: green;
-    cursor: grab;
+    cursor: pointer;
 }
-#privacy{
+
+#privacy {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
     margin-top: 30px;
-    cursor: grab;
+    cursor: pointer;
 }
-.Brazil{
-    height: 800px;
+
+.Brazil {
+    height: 500px;
     width: 100%;
-    background-color: green;
+    /* background-color: green; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#last{
-text-align: center;
+
+#last {
+    height: 500px;
+    width: 1500px;
+    /* background-color: rgb(246, 244, 244); */
+    text-align: center;
 }
-#vertical{
-    height: 600px;
-    width: 1700px;
-    background-color: aquamarine;
+
+#vertical {
+    /* background-color: aquamarine; */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    gap: 90px;
+    margin-top: 40px;
 }
-#around{
+
+#around {
     font-size: 30px;
     font-weight: 200;
-    font-family:"Space Mono", monospace;
+    font-family: "Space Mono", monospace;
+    margin-top: 40px;
 }
-.Albufeira{
+
+.Albufeira {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "work Sans", sans-serif;
+}
+#Algarve {
+    margin-top: 23px;
+}
+#Algarve:hover{
+    text-decoration: underline;
+    color: green;
+    cursor: pointer;
+}
+
+#see {
     font-size: 20px;
     font-weight: 200;
-    font-family: "work Sans", sans-serif;
-      /* margin-top: px;
-} */
+    font-family: "Space Mono", monospace;
+    text-decoration: underline;
+    margin-top: 35px;
+    color: rgba(2, 100, 2, 0.68);
+}
 
-#Algarve{
-    margin-top: 23px;
+#liday {
+    font-size: 30px;
+    font-weight: 200;
+    font-family: "Space Mono", monospace;
+    text-align: center;
+}
+#choice{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: "work Sans", sans-serif;
+    text-align: center;
+    margin-top: 15px;
 }
